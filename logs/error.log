@@ -1,0 +1,4 @@
+[Tue Oct 03 17:45:46.063553 2017] [authz_core:error] [pid 3372:tid 1064] [client 127.0.0.1:50119] AH01630: client denied by server configuration: C:/apps_sis/laravel/blog/public/
+[Tue Oct 03 17:45:46.328660 2017] [authz_core:error] [pid 3372:tid 1064] [client 127.0.0.1:50119] AH01630: client denied by server configuration: C:/apps_sis/laravel/blog/public/favicon.ico, referer: http://blog.dev/
+[Wed Oct 04 09:23:05.035141 2017] [authz_core:error] [pid 3372:tid 1064] [client 127.0.0.1:50732] AH01630: client denied by server configuration: C:/apps_sis/laravel/blog/public/
+[Wed Oct 04 09:23:05.260281 2017] [authz_core:error] [pid 3372:tid 1064] [client 127.0.0.1:50732] AH01630: client denied by server configuration: C:/apps_sis/laravel/blog/public/favicon.ico, referer: http://blog.dev/
