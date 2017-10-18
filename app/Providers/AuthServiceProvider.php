@@ -25,8 +25,6 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        Gate::define('update-article', function ($user, $article){
-            return $user->id == $article->user_id;
-        });
+        Gate::define('update-article', 'App\Policies\ArticlePolicy@update');
     }
 }
