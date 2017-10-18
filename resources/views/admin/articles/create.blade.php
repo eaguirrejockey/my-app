@@ -68,13 +68,11 @@
         $('.select-tags').chosen({
             placeholder_text_multiple:'Seleccionar tags',
             no_results_text: 'No se encontró el tag',
-
         });
 
         $('.select-category').chosen({
             placeholder_text_single:'Seleccionar categoría',
             no_results_text: 'No se encontró la categoría',
-
         });
 
         $('.text-content').trumbowyg();
