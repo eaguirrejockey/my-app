@@ -25,13 +25,16 @@ class AuthServiceProvider extends ServiceProvider
      *
      * @return void
      */
+    public function before($user, $article)
+    {
+        return $user->admin();
+    }
+
     public function boot()
     {
-        public function before($user, $article)
-        {
+        Gate::before(function ($user){
             return $user->admin();
-        }
-
+        });
         $this->registerPolicies();
     }
 }
