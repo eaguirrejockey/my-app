@@ -48,7 +48,7 @@
                         @endforeach
                     </td>
                     <td>
-                        @can('update-article', $article)
+                        @can('update', $article)
                         <a href="{{ route('articles.edit', $article->id) }}" class="btn btn-primary glyphicon glyphicon-wrench"></a>
                         <a href="{{ route('articles.destroy', $article->id) }}" onclick="confirm('Desea borrarlo?');" class="btn btn-danger glyphicon glyphicon-trash"></a>
                         @endcan

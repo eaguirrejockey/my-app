@@ -14,6 +14,7 @@ class ArticlePolicy
      *
      * @return void
      */
+
     public function update($user, $article)
     {
         return $user->id == $article->user_id;
